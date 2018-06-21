@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.depressiontest.InfoTesActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/Disclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Disclaimer"
+            android:textColor="#0D47A1"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/keteranganDisclaimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Disclaimer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textAlignment="center"
+            android:text="keteranganDisclaimer"
+            android:textColor="#0D47A1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/apaItuDepresi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/keteranganDisclaimer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:onClick="browser1"
+            android:text="What is depression"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/petunjukPenanganan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/apaItuDepresi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:onClick="browser2"
+            android:text="Self-help guide"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ThanksTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/petunjukPenanganan"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:text="Thanks to" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ThanksTo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:onClick="browser3"
+            android:textColor="#0D47A1"
+            android:textStyle="bold"
+            android:text="Heru Santoso"
+            android:id="@+id/HeruSantoso"/>
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/ig"
+            android:layout_below="@+id/ThanksTo"
+            android:layout_toRightOf="@id/HeruSantoso"
+            android:onClick="browser4"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/HeruSantoso"
+            android:layout_centerHorizontal="true"
+            android:text="For his time and patience"
+            android:id="@+id/line1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line1"
+            android:text="Without whom this app would never have been finished"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/line2"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0D47A1"
+            android:layout_below="@id/line2"
+            android:layout_marginTop="5dp"
+            android:text="Menu"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:id="@+id/MainMenu"/>
+
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

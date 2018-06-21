@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.depressiontest.Soal1Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intsruksi"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:id="@+id/Instruksi"
+            android:layout_weight="1"
+            />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer1"
+                    android:layout_marginLeft="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Soal 1"
+                android:textSize="16sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:id="@+id/Soal1"
+                android:layout_toRightOf="@id/nomer1"
+                />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Soal1"
+                android:layout_toRightOf="@id/nomer1"
+                android:layout_marginBottom="11dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:id="@+id/CheckBox1"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:id="@+id/CheckBox2"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:id="@+id/CheckBox3"
+                    />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:id="@+id/CheckBox4"
+
+                    />
+
+            </RadioGroup>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer2"
+                    android:layout_marginLeft="8dp"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 2"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Soal2"
+                    android:layout_toRightOf="@id/nomer2"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RadioGroup2"
+                    android:layout_below="@id/Soal2"
+                    android:layout_toRightOf="@id/nomer2">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox5"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox6"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox7"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox8"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer3"
+                    android:layout_marginLeft="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 3"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Soal3"
+                    android:layout_toRightOf="@id/nomer3"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RadioGroup3"
+                    android:layout_below="@id/Soal3"
+                    android:layout_toRightOf="@id/nomer3"
+                    >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox9"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox10"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox11"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox12"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                </RadioGroup>
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer4"
+                    android:layout_marginLeft="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 4"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Soal4"
+                    android:layout_toRightOf="@id/nomer4"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Soal4"
+                    android:id="@+id/RadioGroup4"
+                    android:layout_toRightOf="@id/nomer4">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox13"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox14"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox15"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox16"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer5"
+                    android:layout_marginLeft="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 5"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Soal5"
+                    android:layout_toRightOf="@id/nomer5"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RadioGroup5"
+                    android:layout_below="@id/Soal5"
+                    android:layout_toRightOf="@id/nomer5"
+                    >
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox17"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox18"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox19"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox20"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                </RadioGroup>
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer6"
+                    android:layout_marginLeft="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 6"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Soal6"
+                    android:layout_toRightOf="@id/nomer6"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RadioGroup6"
+                    android:layout_below="@id/Soal6"
+                    android:layout_toRightOf="@id/nomer6">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox21"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox22"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox23"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox24"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer7"
+                    android:layout_marginLeft="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 7"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Soal7"
+                    android:layout_toRightOf="@id/nomer7"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/Soal7"
+                    android:layout_toRightOf="@id/nomer7">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox25"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox26"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox27"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox28"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer8"
+                    android:layout_marginLeft="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 8"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Soal8"
+                    android:layout_toRightOf="@id/nomer8"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RadioGroup8"
+                    android:layout_below="@id/Soal8"
+                    android:layout_toRightOf="@id/nomer8">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox29"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox30"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox31"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox32"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer9"
+                    android:layout_marginLeft="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 9"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Soal9"
+                    android:layout_toRightOf="@id/nomer9"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RadioGroup9"
+                    android:layout_below="@id/Soal9"
+                    android:layout_toRightOf="@id/nomer9">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox33"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox34"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox35"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox36"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardBackgroundColor="#448AFF"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp"
+            app:cardUseCompatPadding="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10"
+                    android:textSize="85sp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/nomer10"
+                    android:layout_marginLeft="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soal 10"
+                    android:textSize="16sp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/Soal10"
+                    android:layout_toRightOf="@id/nomer10"
+                    />
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/RadioGroup10"
+                    android:layout_toRightOf="@id/nomer10"
+                    android:layout_below="@id/Soal10">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox37"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox38"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox39"
+                        />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="13sp"
+                        android:id="@+id/CheckBox40"
+                        android:layout_marginBottom="16dp"
+                        />
+
+                </RadioGroup>
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:background="#0D47A1"
+            android:layout_marginTop="30dp"
+            android:id="@+id/TombolNext"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

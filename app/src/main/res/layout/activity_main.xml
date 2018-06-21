@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.depressiontest.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawablah pertanyaan ini"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:id="@+id/text1"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mulai Tes"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:background="#0D47A1"
+        android:id="@+id/MulaiTest"
+        android:layout_marginBottom="16dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MulaiTest"
+        android:text="Info"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:background="#0D47A1"
+        android:textColor="#FFFFFF"
+        android:id="@+id/InfoTes"/>
+
+</RelativeLayout>
